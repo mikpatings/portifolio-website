@@ -69,8 +69,9 @@ body{
 }
 
 .text{
+    padding-top: 15vh;
+    height: 45vh;
     color: #F3E2D4;
-    margin-top: 10vh;
     background-color: #1B3C53;
     border-radius: 5px;
 }
