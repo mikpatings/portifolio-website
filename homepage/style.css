@@ -31,11 +31,19 @@ body{
     font-size: larger;
 }
 
-
-.box-mid{
-    color: #F3E2D4;
+.boxes {
     display: flex;
+    flex-direction: row; /* Ensures the boxes are aligned side by side */
     justify-content: space-between;
+    margin-left: 30vh;
+    gap: 50px;
+}
+
+.box-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px
 }
 
 .box-mid1{
@@ -61,6 +69,7 @@ body{
 }
 
 .text{
+    color: #F3E2D4;
     margin-top: 10vh;
     background-color: #1B3C53;
     border-radius: 5px;
