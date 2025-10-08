@@ -38,6 +38,7 @@ body{
 }
 
 .box-mid1{
+    text-align: center;
     padding: 50px;
     margin-top: 50px;
     margin-left: 50px;
@@ -49,6 +50,17 @@ body{
 }
 
 .box-mid2{
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    font-size: larger;
+    width: 80vh;
+    height: 61vh;
+    background: linear-gradient(to right, #012a4a , #014f86);
+}
+
+.box-mid3{
+    text-align: center;
     padding: 50px;
     margin-top: 50px;
     margin-right: 50px;
