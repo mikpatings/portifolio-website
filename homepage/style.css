@@ -33,7 +33,7 @@ body{
 
 .boxes {
     display: flex;
-    flex-direction: row; /* Ensures the boxes are aligned side by side */
+    flex-direction: row;
     justify-content: space-between;
     margin-left: 30vh;
     gap: 50px;
